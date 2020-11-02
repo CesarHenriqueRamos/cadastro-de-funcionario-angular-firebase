@@ -1,0 +1,12 @@
+<h3>Cadastro de Funcionarios</h3>
+<form (ngSubmit)="onSubmit()">
+    <div class="form-grop">
+        <label>Nome</label>
+        <input type="text" name="nome" class="form-control" [(ngModel)]="funcionario.nome" placeholder="Nome do Funcionerio">
+    </div>
+    <div class="form-grop">
+        <label>Departamento</label>
+        <input type="text" name="departamento" class="form-control" [(ngModel)]="funcionario.departamento" placeholder="Derpartamento do Funcionerio">
+    </div>
+    <button class="btn btn-primary">Gravar</button>
+</form>
